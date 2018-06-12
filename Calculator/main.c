@@ -32,7 +32,8 @@ int main()
     {
         if(value2 == 0)
         {
-            fprintf(stderr,"%s","Error! Value 2 cannot be zero");
+            //error handling
+            printf("Error! Value 2 cannot be zero");
             exit(1);
         }
         else
@@ -40,6 +41,7 @@ int main()
     }
     else
     {
+        //error handling
         printf("Error! choice must be within 1 to 4 ");
         exit(2);
     }
