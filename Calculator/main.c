@@ -32,11 +32,16 @@ int main()
     {
         if(value2 == 0)
         {
-            fprintf(stderr,"%s","Error");
+            fprintf(stderr,"%s","Error! Value 2 cannot be zero");
             exit(1);
         }
         else
             ans = value1 / value2;
+    }
+    else
+    {
+        printf("Error! choice must be within 1 to 4 ");
+        exit(2);
     }
     printf("\nAnswer is : %f",ans);
     return 0;
