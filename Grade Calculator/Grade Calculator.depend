@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528390274 source:d:\projects\code blocks\stack2\grade calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+
