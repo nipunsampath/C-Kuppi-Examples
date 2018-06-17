@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528810049 source:d:\software engineering\kuppi\codes\factorial(loops)\main.c
+	<stdio.h>
+	<stdlib.h>
+
