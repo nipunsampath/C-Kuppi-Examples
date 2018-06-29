@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1530280655 source:d:\software engineering\kuppi\codes\mirrored triangle\main.c
+	<stdio.h>
+	<stdlib.h>
+
