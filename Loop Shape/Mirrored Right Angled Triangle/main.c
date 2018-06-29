@@ -11,12 +11,12 @@ int main()
 
     for(i = 1; i <= rows; i++)
     {
-        for(j = 1;j <= rows;j++)
+        for(j = rows;j > 0;j--)
         {
-            if(j < i)
-                printf("*");
-            else
+            if(j > i)
                 printf(" ");
+            else
+                printf("*");
         }
         printf("\n");
     }
